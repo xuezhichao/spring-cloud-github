@@ -8,6 +8,7 @@ public class DcController {
 	
 	@GetMapping("/dc")
 	public String dc() {
+		System.out.println("为服务服务端");
 		return "services";
 	}
 }
